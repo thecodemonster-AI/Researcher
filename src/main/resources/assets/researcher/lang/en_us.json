@@ -1,9 +1,9 @@
 {
-  "block.researchtable.research_table": "Research Table",
-  "item.researchtable.research_scroll": "Research Scroll",
-  "item.researchtable.parchment": "Parchment",
-  "item.researchtable.research_guide": "Research Guide",
-  "container.researchtable.research_table": "Research Table",
-  "itemGroup.researchtable": "Research Table",
-  "block.researchtable.research_table.tooltip": "Place and use to start research"
+  "block.researcher.research_table": "Research Table",
+  "item.researcher.research_scroll": "Research Scroll",
+  "item.researcher.parchment": "Parchment",
+  "item.researcher.research_guide": "Research Guide",
+  "container.researcher.research_table": "Research Table",
+  "itemGroup.researcher": "Research Table",
+  "block.researcher.research_table.tooltip": "Place and use to start research"
 }

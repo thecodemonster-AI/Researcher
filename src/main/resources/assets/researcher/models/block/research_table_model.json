@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "researchtable:block/research_table",
-		"particle": "researchtable:block/research_table"
+		"0": "researcher:block/research_table",
+		"particle": "researcher:block/research_table"
 	},
 	"elements": [
 		{

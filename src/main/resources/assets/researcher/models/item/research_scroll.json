@@ -2,7 +2,7 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "researchtable:block/red_scroll"
+		"1": "researcher:block/red_scroll"
 	},
 	"elements": [
 		{

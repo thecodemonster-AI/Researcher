@@ -1,5 +1,6 @@
 package com.ender.registry;
 
+import com.ender.researcher.ResearchTable;
 import com.ender.item.ResearchScrollItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -9,7 +10,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "researchtable");
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ResearchTable.MODID);
 
     // Standard research scroll (kept for existing code compatibility)
     public static final RegistryObject<Item> RESEARCH_SCROLL = ITEMS.register("research_scroll",

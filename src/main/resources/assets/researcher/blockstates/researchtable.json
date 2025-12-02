@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "researcher:block/research_table_model" }
+  }
+}
