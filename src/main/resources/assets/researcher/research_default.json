@@ -1,0 +1,47 @@
+{
+  "research": [
+    {
+      "id": "starter_guide",
+      "title": "Starter Guide",
+      "description": "Introductory research to unlock basics.",
+      "time_seconds": 10,
+      "requirements": [],
+      "reward": { "item": "minecraft:book", "count": 1 }
+    },
+    {
+      "id": "basic_tools",
+      "title": "Basic Tools",
+      "description": "Research how to craft better tools.",
+      "time_seconds": 60,
+      "requirements": [
+        { "type": "item", "item": "minecraft:iron_ingot", "count": 4 },
+        { "type": "research", "research_id": "starter_guide" }
+      ],
+      "reward": { "item": "minecraft:iron_pickaxe", "count": 1 }
+    },
+	{
+	  "id": "starter_guide2",
+	  "title": "Starter Guide2",
+	  "description": "Introductory research to unlock basics.",
+	  "time_seconds": 10,
+	  "requirements": [],
+	  "reward": { "item": "minecraft:book", "count": 1 }
+	},
+	{
+	  "id": "starter_guide3",
+	  "title": "Starter Guide3",
+	  "description": "Introductory research to unlock basics.",
+	  "time_seconds": 10,
+	  "requirements": [],
+	  "reward": { "item": "minecraft:book", "count": 1 }
+	},
+	{
+	  "id": "starter_guide4",
+	  "title": "Starter Guide4",
+	  "description": "Introductory research to unlock basics.",
+	  "time_seconds": 10,
+	  "requirements": [],
+	  "reward": { "item": "minecraft:book", "count": 1 }
+	}
+  ]
+}

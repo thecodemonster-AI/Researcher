@@ -1,0 +1,9 @@
+{
+  "block.researchtable.research_table": "Research Table",
+  "item.researchtable.research_scroll": "Research Scroll",
+  "item.researchtable.parchment": "Parchment",
+  "item.researchtable.research_guide": "Research Guide",
+  "container.researchtable.research_table": "Research Table",
+  "itemGroup.researchtable": "Research Table",
+  "block.researchtable.research_table.tooltip": "Place and use to start research"
+}
