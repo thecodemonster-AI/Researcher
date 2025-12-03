@@ -1,46 +1,10 @@
-
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
-
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
-
-Setup Process:
-==============================
-
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
-
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `./gradlew genEclipseRuns`
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
-
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `./gradlew genIntellijRuns`
-4. Refresh the Gradle Project in IDEA if required.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-(this does not affect your code) and then start the process again.
-
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
-
-Additional Resources: 
-=========================
-Community Documentation: https://docs.minecraftforge.net/en/1.20.1/gettingstarted/
-LexManos' Install Video: https://youtu.be/8VEdtQLuLO0
-Forge Forums: https://forums.minecraftforge.net/
-Forge Discord: https://discord.minecraftforge.net/
+Researcher is a lightweight, highly flexible Minecraft mod designed to pair seamlessly with the popular GameStages mod, giving modpack creators powerful tools to build immersive, stage-based progression systems.
+At the core of the mod is the Research Bench, a specialized workstation that stores and displays all custom research entries defined by the pack author. Each research entry can require specific items, experience, or other conditions before it can be completed. This allows modpacks to gate content, items, or mechanics behind meaningful research steps instead of simple crafting recipes.
+When a player completes a research entry, the Research Bench will output a configured reward item chosen by the creator. Modpack makers can use these items to unlock GameStages, trigger advancements, or integrate with any progression system they prefer.
+For even more flexibility, Researcher also includes the Scroll, a customizable item capable of executing a command when used. Scrolls can be set to be rewarded through research or any other method. This makes it easy to automate stage unlocks, grant abilities, run scripts, or tie research completion into broader modpack systems.
+Key Features
+Full integration with GameStages for smooth staged progression.
+Research Bench block that hosts all defined research.
+Configurable research entries with item requirements and custom rewards.
+Scroll item that executes a command on use for advanced scripting and automation.
+Designed specifically for modpack creators—simple, clean, and powerful.
